@@ -36,6 +36,6 @@ public class OrangeHRMS {
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		
 		driver.findElement(By.name("Submit")).click();		
-	
+		System.out.println("Successfully executed - 7th July");
 	}
 }
